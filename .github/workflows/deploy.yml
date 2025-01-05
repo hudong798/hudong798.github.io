@@ -1,0 +1,44 @@
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main  # 触发工作流的分支
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      # 1. 检出代码
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      # 2. 设置 Node.js 环境
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 16  # 指定 Node.js 版本
+
+      # 3. 安装依赖
+      - name: Install dependencies
+        run: pnpm install
+
+      # 4. 构建项目
+      - name: Build project
+        run: pnpm build
+
+      # 5. 将 /dist 目录的内容复制到 /docs 目录
+      - name: Copy dist to docs
+        run: |
+          rm -rf docs  # 删除旧的 /docs 目录
+          cp -r dist docs  # 将 /dist 目录复制到 /docs 目录
+
+      # 6. 提交更改
+      - name: Commit changes
+        run: |
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "actions@github.com"
+          git add .
+          git commit -m "Deploy to GitHub Pages"
+          git push origin main
