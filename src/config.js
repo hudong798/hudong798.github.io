@@ -1,4 +1,4 @@
-export const BLOG_URL = "https://hudong798githubio.vercel.app/";
+export const BLOG_URL = "https://www.52798.xyz/";
 export const HASH_FILE = "./.build-hash.json";
 
 // 计算年份范围
@@ -11,7 +11,7 @@ export const BLOG_CONFIG = {
   author: "Holdon",
   description: "动起来就好，想做就去做吧。涵有闲博客，记录生活点滴，分享生活感悟。",
   language: "zh-CN",
-  keywords: "blog, 涵有闲, Han, 碎片生活, note, 个人博客, 生活记录",
+  keywords: "blog, Holdon, Hu, 碎片生活, note, 个人博客, 生活记录",
   yearRange,
   analytics: `
     <!-- 百度统计 -->
