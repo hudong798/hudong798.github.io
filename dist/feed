@@ -4,7 +4,7 @@
         <title>涵有闲</title>
         <link>https://hyx.ink</link>
         <description>动起来就好，想做就去做吧。涵有闲博客，记录生活点滴，分享生活感悟。</description>
-        <lastBuildDate>Mon, 06 Jan 2025 08:27:37 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 06 Jan 2025 09:04:50 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>zh-CN</language>
@@ -239,20 +239,6 @@
             <guid>https://hyx.ink/post/write-to-her</guid>
             <pubDate>Tue, 11 Oct 2022 08:00:00 GMT</pubDate>
             <description><![CDATA[不知道是怀着什么样的心情写这封信，有过失眠、迷茫、拖延，趁还有些轮廓，就写了吧。 亲爱的，不知道这个称呼是否妥当，这对我来说是个陌生又熟悉的词，你还好吧？ 不知道我是在什么处境下，拿出这封信与你分享，因为在写这封信的时候，我对你的样子是模糊...]]></description>
-        </item>
-        <item>
-            <title><![CDATA[10月6随笔]]></title>
-            <link>https://hyx.ink/post/sb-20221006</link>
-            <guid>https://hyx.ink/post/sb-20221006</guid>
-            <pubDate>Thu, 06 Oct 2022 08:00:00 GMT</pubDate>
-            <description><![CDATA[> Demo 风入竹林自成韵，雨扶花树自带香。 测试一下]]></description>
-        </item>
-        <item>
-            <title><![CDATA[10月6随笔]]></title>
-            <link>https://hyx.ink/post/sb-20221006</link>
-            <guid>https://hyx.ink/post/sb-20221006</guid>
-            <pubDate>Thu, 06 Oct 2022 08:00:00 GMT</pubDate>
-            <description><![CDATA[> 最近情况不对劲，停下来自我疏导一下。 最近病了，病情反复，这到不是严重的，严重的是我可能得了心病。我渴望做些什么，没有付出太多，又想很快的得到成果，有过小阶段的成果，可我不懂得满足，一味想要得到更多，结果是捡了芝麻丢了西瓜；这导致我徘徊...]]></description>
         </item>
         <item>
             <title><![CDATA[我常用的git命令]]></title>

@@ -3,8 +3,6 @@
   "./src/templates/index.js": "98a9b1a1762fd167da93cf93c7d1efb4",
   "./src/templates/style.css": "4e930f7540396c39b4962f1e74460fed",
   "./src/templates/journals.html": "7139657ebf76ed42ed3be46f1062804d",
-  "./journals.json": "8969d54846a1572e2e73b28181bddf70",
-  "./content/10月6随笔.md": "53f394d008100b13d1b471a0a9d2541c",
   "./content/2022年度总结.md": "bcf34514dbd5941489ebc0b80869103c",
   "./content/2月16随笔.md": "68cf1d1108bacb851eb5917fabd24e6c",
   "./content/2月28随笔.md": "8116d936dbfefa3b026fe0da96d0ed46",
@@ -57,5 +55,5 @@
   "./content/骑行的收获.md": "3dd81d1af50d53de65e762308f77807c",
   "./content/黎明前的潜伏.md": "49a426d11c55e0199ddc59a56f62f3db",
   "./about.md": "20172c31f23d4800aa76be7b476ba583",
-  "./content/1.6号test.md": "d9eee7f82858a5378d36d8fa34fc7ca9"
+  "./journals.json": "8969d54846a1572e2e73b28181bddf70"
 }
