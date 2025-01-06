@@ -2,7 +2,7 @@ export const BLOG_URL = "https://www.52798.xyz/";
 export const HASH_FILE = "./.build-hash.json";
 
 // 计算年份范围
-const startYear = 2021;
+const startYear = 2025;
 const currentYear = new Date().getFullYear();
 const yearRange = `${startYear}-${currentYear}`;
 
