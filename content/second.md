@@ -11,4 +11,6 @@ date: 2025-01-06
 但是完成之后太爽了！！！
 
 >欣赏第一幅图片
-<img src="https://image.52798.xyz/WechatIMG290.webp" alt="欣赏第一幅图片" style="width: 90%; height: auto;">
+
+
+<img src="https://image.52798.xyz/WechatIMG290.webp" alt="欣赏第一幅图片" style="width: 95%; height: auto;">
