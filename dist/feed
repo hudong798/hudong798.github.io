@@ -4,18 +4,11 @@
         <title>Holdon</title>
         <link>https://www.52798.xyz/</link>
         <description>动起来就好，想做就去做吧。涵有闲博客，记录生活点滴，分享生活感悟。</description>
-        <lastBuildDate>Mon, 06 Jan 2025 18:00:29 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 06 Jan 2025 19:03:49 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>zh-CN</language>
         <atom:link href="https://www.52798.xyz//feed" rel="self" type="application/rss+xml"/>
-        <item>
-            <title><![CDATA[2024年度总结]]></title>
-            <link>https://www.52798.xyz//post/summary-of-2025</link>
-            <guid>https://www.52798.xyz//post/summary-of-2025</guid>
-            <pubDate>Mon, 06 Jan 2025 08:00:00 GMT</pubDate>
-            <description><![CDATA[> 一直没静下来，拖着拖着就过了好久，算是忙里偷闲，趁这会儿给 2022 画上最后一笔。 > > 其实 2022 也没啥大事，总得来分就两方面，技能和生活。 技能方面的话，感觉自己一直乱糟糟的，东搞搞西搞搞，没整出什么。大方向是从语言方面的...]]></description>
-        </item>
         <item>
             <title><![CDATA[2025网站搭建完成]]></title>
             <link>https://www.52798.xyz//post/perfect-2025</link>
@@ -29,13 +22,6 @@
             <guid>https://www.52798.xyz//post/perfect-2025</guid>
             <pubDate>Mon, 06 Jan 2025 08:00:00 GMT</pubDate>
             <description><![CDATA[> 2个小时搞定 其实搞没多久只是不知道怎么搞 但是完成之后太爽了！！！ >欣赏第一幅图片 <img src="https://image.52798.xyz/WechatIMG290.webp" alt="欣赏第一幅图片"...]]></description>
-        </item>
-        <item>
-            <title><![CDATA[2025随便写写]]></title>
-            <link>https://www.52798.xyz//post/test-2025</link>
-            <guid>https://www.52798.xyz//post/test-2025</guid>
-            <pubDate>Mon, 06 Jan 2025 08:00:00 GMT</pubDate>
-            <description><![CDATA[> 一直没静下来，拖着拖着就过了好久，算是忙里偷闲，趁这会儿给 2022 画上最后一笔。 > > 其实 2025 也没啥大事，总得来分就两方面，技能和生活。 技能方面的话，感觉自己一直乱糟糟的，东搞搞西搞搞，没整出什么。大方向是从语言方面的...]]></description>
         </item>
     </channel>
 </rss>
