@@ -1,6 +1,6 @@
 ---
 title: 关于我
-author: 子涵
+author: Holdon
 slug: about
 date: "2021-8-20 17:30"
 ---
@@ -45,8 +45,8 @@ date: "2021-8-20 17:30"
 
 ## 联系
 
-- 微信：YWHSYXC
-- 邮箱：im.zihanla@gmail.com
+- 微信：HD60819
+- 邮箱：hudong798@gmail.com
 
 ## 链接
 
