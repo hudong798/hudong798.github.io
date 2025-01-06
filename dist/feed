@@ -4,7 +4,7 @@
         <title>Holdon</title>
         <link>https://www.52798.xyz/</link>
         <description>动起来就好，想做就去做吧。涵有闲博客，记录生活点滴，分享生活感悟。</description>
-        <lastBuildDate>Mon, 06 Jan 2025 15:19:35 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 06 Jan 2025 17:35:35 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>zh-CN</language>
@@ -22,6 +22,13 @@
             <guid>https://www.52798.xyz//post/perfect-2025</guid>
             <pubDate>Mon, 06 Jan 2025 08:00:00 GMT</pubDate>
             <description><![CDATA[> 搞了两天终于完成 从想建立个人博客到逐步完成实在是太难熬了！ 但是完成之后太爽了！！！]]></description>
+        </item>
+        <item>
+            <title><![CDATA[实现图片上传]]></title>
+            <link>https://www.52798.xyz//post/perfect-2025</link>
+            <guid>https://www.52798.xyz//post/perfect-2025</guid>
+            <pubDate>Mon, 06 Jan 2025 08:00:00 GMT</pubDate>
+            <description><![CDATA[> 2个小时搞定 其实搞没多久只是不知道怎么搞 但是完成之后太爽了！！！ !欣赏第一幅图片]]></description>
         </item>
         <item>
             <title><![CDATA[2025随便写写]]></title>
