@@ -4,11 +4,18 @@
         <title>Holdon</title>
         <link>https://www.52798.xyz/</link>
         <description>动起来就好，想做就去做吧。涵有闲博客，记录生活点滴，分享生活感悟。</description>
-        <lastBuildDate>Tue, 07 Jan 2025 18:12:47 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 07 Jan 2025 19:06:49 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>zh-CN</language>
         <atom:link href="https://www.52798.xyz//feed" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[小实验]]></title>
+            <link>https://www.52798.xyz//post/shiyan-2025</link>
+            <guid>https://www.52798.xyz//post/shiyan-2025</guid>
+            <pubDate>Tue, 07 Jan 2025 08:00:00 GMT</pubDate>
+            <description><![CDATA[> 随便写一下 送上两张图 !夕阳 !直播]]></description>
+        </item>
         <item>
             <title><![CDATA[2025网站搭建完成]]></title>
             <link>https://www.52798.xyz//post/perfect-2025</link>
