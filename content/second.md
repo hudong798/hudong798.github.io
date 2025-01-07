@@ -12,8 +12,8 @@ date: 2025-01-06
 
 >欣赏第一幅图片
 
-<img src="https://image.52798.xyz/WechatIMG290.webp" alt="欣赏第一幅图片" style="width: 95%; height: auto;">
+![漫画](https://image.52798.xyz/WechatIMG290.webp)
 
 ## 第二张
 
-<img src="https://image.52798.xyz/2.webp" alt="欣赏第二幅图片" style="width: 100%; height: auto;">
+![第二张](https://image.52798.xyz/2.webp)
