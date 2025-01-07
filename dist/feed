@@ -4,7 +4,7 @@
         <title>Holdon</title>
         <link>https://www.52798.xyz/</link>
         <description>动起来就好，想做就去做吧。涵有闲博客，记录生活点滴，分享生活感悟。</description>
-        <lastBuildDate>Tue, 07 Jan 2025 10:27:07 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 07 Jan 2025 10:46:06 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>zh-CN</language>
@@ -15,6 +15,13 @@
             <guid>https://www.52798.xyz//post/great</guid>
             <pubDate>Tue, 07 Jan 2025 10:27:00 GMT</pubDate>
             <description><![CDATA[> 终于解决 我真不理解为什么，手机访问的好好的突然不能访问了，电脑正常访问，然后第二天突然换一个Wi-Fi好了 <img src="https://image.52798.xyz/3.webp" alt="欣赏第三幅图片"...]]></description>
+        </item>
+        <item>
+            <title><![CDATA[测试]]></title>
+            <link>https://www.52798.xyz//post/perfect-2025</link>
+            <guid>https://www.52798.xyz//post/perfect-2025</guid>
+            <pubDate>Tue, 07 Jan 2025 08:00:00 GMT</pubDate>
+            <description><![CDATA[> test !漫画]]></description>
         </item>
         <item>
             <title><![CDATA[2025网站搭建完成]]></title>
