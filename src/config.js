@@ -1,4 +1,4 @@
-export const BLOG_URL = "https://www.52798.xyz/";
+export const BLOG_URL = "www.52798.xyz/";
 export const HASH_FILE = "./.build-hash.json";
 
 // 计算年份范围

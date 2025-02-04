@@ -2,24 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Holdon</title>
-        <link>https://www.52798.xyz/</link>
+        <link>www.52798.xyz/</link>
         <description>动起来就好，想做就去做吧。涵有闲博客，记录生活点滴，分享生活感悟。</description>
-        <lastBuildDate>Tue, 07 Jan 2025 19:06:49 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 04 Feb 2025 21:39:44 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>zh-CN</language>
-        <atom:link href="https://www.52798.xyz//feed" rel="self" type="application/rss+xml"/>
+        <atom:link href="www.52798.xyz//feed" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[试试新的图床]]></title>
+            <link>www.52798.xyz//post/perfect-2025</link>
+            <guid>www.52798.xyz//post/perfect-2025</guid>
+            <pubDate>Tue, 04 Feb 2025 08:00:00 GMT</pubDate>
+            <description><![CDATA[> 看看吧 !趁假期 !童]]></description>
+        </item>
+        <item>
+            <title><![CDATA[免费影视网站合集(持续更新中……)]]></title>
+            <link>www.52798.xyz//post/freefilm-2025</link>
+            <guid>www.52798.xyz//post/freefilm-2025</guid>
+            <pubDate>Wed, 08 Jan 2025 08:00:00 GMT</pubDate>
+            <description><![CDATA[> 来看点播(干净没有广告还快) > warhub(没有广告) > 4k美剧下载(主要是下载到云盘看)]]></description>
+        </item>
         <item>
             <title><![CDATA[小实验]]></title>
-            <link>https://www.52798.xyz//post/shiyan-2025</link>
-            <guid>https://www.52798.xyz//post/shiyan-2025</guid>
+            <link>www.52798.xyz//post/shiyan-2025</link>
+            <guid>www.52798.xyz//post/shiyan-2025</guid>
             <pubDate>Tue, 07 Jan 2025 08:00:00 GMT</pubDate>
             <description><![CDATA[> 随便写一下 送上两张图 !夕阳 !直播]]></description>
         </item>
         <item>
             <title><![CDATA[2025网站搭建完成]]></title>
-            <link>https://www.52798.xyz//post/perfect-2025</link>
-            <guid>https://www.52798.xyz//post/perfect-2025</guid>
+            <link>www.52798.xyz//post/perfect-2025</link>
+            <guid>www.52798.xyz//post/perfect-2025</guid>
             <pubDate>Mon, 06 Jan 2025 08:00:00 GMT</pubDate>
             <description><![CDATA[> 搞了两天终于完成 从想建立个人博客到逐步完成实在是太难熬了！ 但是完成之后太爽了！！！ !人 !风景1 !风景2 !漫画]]></description>
         </item>
