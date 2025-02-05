@@ -1,5 +1,5 @@
 ---
-title: "小实验"
+title: "随便写一下"
 author: "Holdon"
 slug: "shiyan-2025"
 date: 2025-01-07
