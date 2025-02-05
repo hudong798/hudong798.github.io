@@ -20,19 +20,23 @@ date: 2025-01-06
 
 **👤 人生一瞬，留下痕迹** 
 
-![人](https://image.52798.xyz/2.webp)  
+![人](https://www.helloimg.com/i/2025/02/05/67a2fd5f6722e.png)
 
 **🌄 风景 1 | 世界很大，走出去看看**  
 
-![风景1](https://image.52798.xyz/WechatIMG290.webp)  
+![风景1](https://www.helloimg.com/i/2025/02/05/67a2fd57cde2c.jpg)
+
 
 **🌅 风景 2 | 宁静的美好**  
 
-![风景2](https://image.52798.xyz/3.webp)  
+![风景2](https://www.helloimg.com/i/2025/02/05/67a2fd628596c.jpg)
 
 **📖 漫画 | 生活需要一点趣味**  
 
-![漫画](https://image.52798.xyz/4.webp)  
+![漫画](https://www.helloimg.com/i/2025/02/05/67a2fd5f71e46.jpg)
+
+
+
 
 ---
 
