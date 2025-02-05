@@ -52,7 +52,11 @@ export function generateIndexHtml(posts) {
   <a href="#top" class="back-to-top" aria-label="返回顶部">↑</a>
   <header class="site-header">
     <div class="site-title">
-      <a href="/">${BLOG_CONFIG.title}</a>
+      
+      <a href="/" style="display: flex; align-items: center;">
+            <img src="https://www.helloimg.com/i/2025/02/05/67a327ae5c98a.gif" alt="Image description" style="width:50px; height:auto; margin-right: 10px;">
+            ${BLOG_CONFIG.title}
+        </a>
     </div>
     <nav class="site-nav">
       <a href="/about#now">现在</a>
