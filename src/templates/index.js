@@ -73,7 +73,7 @@ export function generateIndexHtml(posts) {
 
   <footer>
     <span>© ${BLOG_CONFIG.yearRange} ${BLOG_CONFIG.author}</span>
-    <a href="/feed">订阅</a>
+    <a href="https://linux.do/u/panan/summary">订阅</a>
   </footer>
   ${BLOG_CONFIG.analytics}
 </body>
