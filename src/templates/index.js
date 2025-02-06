@@ -70,6 +70,10 @@ export function generateIndexHtml(posts) {
     <br>
     保持简单，专注于重要的事情
   </div>
+  <audio controls>
+  <source src="https://photo.459122.xyz/i/102882f82584ad702697e809fbf717d0.mp3" type="audio/mpeg">
+  您的浏览器不支持音频元素。
+  </audio>
 
   <main>
     <ul class="post-list">${postList}</ul>
