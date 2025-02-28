@@ -4,7 +4,7 @@
         <title>Holdon</title>
         <link>www.52798.xyz/</link>
         <description>动起来就好，想做就去做吧。涵有闲博客，记录生活点滴，分享生活感悟。</description>
-        <lastBuildDate>Fri, 28 Feb 2025 12:39:48 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 28 Feb 2025 12:43:38 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>zh-CN</language>
@@ -22,6 +22,13 @@
             <guid>www.52798.xyz//post/yunpanall-2025</guid>
             <pubDate>Wed, 05 Feb 2098 08:00:00 GMT</pubDate>
             <description><![CDATA[--- | 资源名称 | 资源类型 | 访问地址 | |----------|---------|---------| | **实用软件合集** | 常用工具 | 🔗 点击访问 | --- 🕒...]]></description>
+        </item>
+        <item>
+            <title><![CDATA[文件传输工具（持续更新中…）]]></title>
+            <link>www.52798.xyz//post/webnjianchuanshu1-2025</link>
+            <guid>www.52798.xyz//post/webnjianchuanshu1-2025</guid>
+            <pubDate>Fri, 28 Feb 2025 08:00:00 GMT</pubDate>
+            <description><![CDATA[**部分网站可能无法访问，可能是服务器崩了，也可能需要魔法 😎** --- 🔹 **取文件** 🔹 **wormhole** --- 🕒 **2025.02.28**（会不定期更新，记得收藏！⭐） ---]]></description>
         </item>
         <item>
             <title><![CDATA[云盘传输网站]]></title>
