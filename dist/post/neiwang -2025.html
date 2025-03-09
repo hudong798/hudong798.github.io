@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta content="blog, Holdon, Hu, 碎片生活, note, 个人博客, 生活记录" name="keywords" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="> <font style="color: #FF00BB">字面意思理解</font> * 就是内网的东西穿透到公网上 > <font style="color: #FF00BB">举个例子</font> *..." />
+    
+    <link rel="stylesheet" href="/static/style.css" />
+    <title>什么是内网穿透</title>
+  </head>
+  <body id="top">
+    <a href="#top" class="back-to-top" aria-label="返回顶部">↑</a>
+    <header class="site-header">
+      <div class="site-title">
+        <!-- <a href="/">Holdon</a> -->
+        <a href="/" style="display: flex; align-items: center;">
+            <img src="https://img.picgo.net/2025/02/06/100017943999ed007cac2a37e5.gif" alt="Image description" style="width:50px; height:auto; margin-right: 10px;">
+            Holdon
+        </a>
+      </div>
+      <nav class="site-nav">
+        <a href="/about#now">现在</a>
+        <a href="/journals">碎语</a>
+        <a href="/about">关于</a>
+      </nav>
+    </header>
+
+    <article>
+      <header class="post-header">
+        <h1>什么是内网穿透</h1>
+        <div class="post-meta">
+          <span>Holdon</span>
+          <span class="separator">·</span>
+          <span>2025-03-09</span>
+        </div>
+      </header>
+      <div class="post-content"><blockquote>
+<p><font style="color: #FF00BB">字面意思理解</font></p>
+</blockquote>
+<ul>
+<li>就是内网的东西穿透到公网上</li>
+</ul>
+<blockquote>
+<p><font style="color: #FF00BB">举个例子</font></p>
+</blockquote>
+<ul>
+<li>假如我的的电脑就是一台服务器，现在我用 AI 给我制作一个 静态网站，这个静态网站可以通过文件目录（<code>C:\MyBlog</code> 或 <code>/home/user/myblog</code>）地址通过浏览器直接访问就可以了，但是当我用手机或者别的电脑访问就不行，这里就是路由器的作用了，路由器充当一个中转站（只出不进），他只允许内网可以访问公网，但是公网不能进内网访问，（路由器作用这里不说）所以想要从外部访问内网这就必须借助内网穿透，他会给你一个公网的地址，提供访问。</li>
+</ul>
+<blockquote>
+<p><font style="color: #FF00BB"> 内网穿透与路由器的区别</font></p>
+</blockquote>
+<p>  路由器主要是用来连接内网和外网的设备。路由器的功能</p>
+<ul>
+<li>让家里多台设备共享一个宽带上网</li>
+<li>分配内网IP地址给家里的设备</li>
+<li>允许内网设备访问外网(比如上网)</li>
+</ul>
+<h4>简单来说：</h4>
+<ul>
+<li><p><strong>路由器</strong>：就像是你家的大门，默认情况下你可以从里面出去，但外面的人不能随便进来。</p>
+</li>
+<li><p><strong>内网穿透</strong>：就像是给这个大门安装了一个特殊的&quot;门铃系统&quot;，当外面的人按响特定的门铃，路由器就会把这个人引导到家里的特定房间(内网的特定服务)。<br>虽然现代路由器有&quot;端口映射&quot;功能可以实现简单的内网穿透，但专业的内网穿透服务提供了更多高级功能：</p>
+</li>
+<li><p>可以穿越多级NAT</p>
+</li>
+<li><p>不需要固定公网IP</p>
+</li>
+<li><p>提供更友好的域名而非IP+端口</p>
+</li>
+<li><p>可以实现更复杂的访问控制</p>
+</li>
+</ul>
+</div>
+    </article>
+    <footer>
+      <span>© 2025-2025 Holdon</span>
+      <a href="https://linux.do/u/panan/summary">订阅</a>
+    </footer>
+    
+    <!-- 百度统计 -->
+    <script>
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "https://hm.baidu.com/hm.js?dd3de863d99a084d9ebd540d0bb7724b";
+      hm.async = true;
+      var s = document.getElementsByTagName("script")[0]; 
+      s.parentNode.insertBefore(hm, s);
+    })();
+    </script>
+  
+  </body>
+</html>
