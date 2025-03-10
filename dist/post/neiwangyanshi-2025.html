@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta content="blog, Holdon, Hu, 碎片生活, note, 个人博客, 生活记录" name="keywords" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="以下是在 Mac 上将本地 HTML 博客通过内网穿透实现公网访问的详细步骤： --- 1. 打开终端，进入 HTML 文件所在目录： 2. 启动 Python HTTP 服务器（默认端口 8000）：..." />
+    <link rel="stylesheet" href="https://cdn.bootcdn.net/ajax/libs/highlight.js/11.9.0/styles/github.min.css">
+    <link rel="stylesheet" href="/static/style.css" />
+    <title>内网穿透演示</title>
+  </head>
+  <body id="top">
+    <a href="#top" class="back-to-top" aria-label="返回顶部">↑</a>
+    <header class="site-header">
+      <div class="site-title">
+        <!-- <a href="/">Holdon</a> -->
+        <a href="/" style="display: flex; align-items: center;">
+            <img src="https://img.picgo.net/2025/02/06/100017943999ed007cac2a37e5.gif" alt="Image description" style="width:50px; height:auto; margin-right: 10px;">
+            Holdon
+        </a>
+      </div>
+      <nav class="site-nav">
+        <a href="/about#now">现在</a>
+        <a href="/journals">碎语</a>
+        <a href="/about">关于</a>
+      </nav>
+    </header>
+
+    <article>
+      <header class="post-header">
+        <h1>内网穿透演示</h1>
+        <div class="post-meta">
+          <span>Holdon</span>
+          <span class="separator">·</span>
+          <span>2025-03-10</span>
+        </div>
+      </header>
+      <div class="post-content"><p>以下是在 Mac 上将本地 HTML 博客通过内网穿透实现公网访问的详细步骤：</p>
+<hr>
+<h3>一、启动本地 Web 服务器</h3>
+<h4>方法 1：使用 Python 内置服务器</h4>
+<ol>
+<li>打开终端，进入 HTML 文件所在目录：</li>
+</ol>
+<pre><code class="hljs language-bash"> <span class="hljs-built_in">cd</span> /Users/apple/Desktop/</code></pre><ol start="2">
+<li>启动 Python HTTP 服务器（默认端口 8000）：<pre><code class="hljs language-bash">python3 -m http.server 8000</code></pre><em>如果提示端口被占用，可更换端口号（如 <code>8080</code>）</em></li>
+</ol>
+<h4>方法 2：使用 PHP 内置服务器</h4>
+<ol>
+<li>进入 HTML 例如在（/Users/apple/Desktop/）目录下面，文件所在目录：</li>
+</ol>
+<pre><code class="hljs language-bash"> <span class="hljs-built_in">cd</span> /Users/apple/Desktop/</code></pre><ol start="2">
+<li>启动 PHP 服务器（默认端口 8000）：<pre><code class="hljs language-bash">php -S localhost:8000</code></pre></li>
+</ol>
+<hr>
+<h3>二、选择内网穿透工具（任选其一）</h3>
+<h4>方案 1：使用 ngrok（推荐）</h4>
+<ol>
+<li><strong>安装 ngrok</strong><pre><code class="hljs language-bash">brew install ngrok/ngrok/ngrok</code></pre></li>
+<li><strong>注册并获取 Token</strong><ul>
+<li>访问 <a target="_blank" rel="noopener noreferrer" href="https://ngrok.com/">ngrok官网</a> 注册账号</li>
+<li>在 Dashboard 获取你的 <a target="_blank" rel="noopener noreferrer" href="https://dashboard.ngrok.com/get-started/your-authtoken">Authtoken</a></li>
+</ul>
+</li>
+<li><strong>配置 Token</strong><pre><code class="hljs language-bash">ngrok config add-authtoken &lt;你的TOKEN&gt;</code></pre></li>
+<li><strong>启动穿透服务</strong><pre><code class="hljs language-bash">ngrok http 8000</code></pre><ul>
+<li>终端会显示公网地址（如 <code>https://xxxx.ngrok.io</code>）</li>
+</ul>
+</li>
+</ol>
+<h4>方案 2：使用 Localtunnel（无需注册）</h4>
+<ol>
+<li><strong>安装 Node.js 和 npm</strong><pre><code class="hljs language-bash">brew install node</code></pre></li>
+<li><strong>安装 Localtunnel</strong><pre><code class="hljs language-bash">npm install -g localtunnel</code></pre></li>
+<li><strong>启动服务</strong><pre><code class="hljs language-bash">lt --port 8000</code></pre><ul>
+<li>终端会返回类似 <code>https://happy-lion-123.loca.lt</code> 的公网地址</li>
+</ul>
+</li>
+</ol>
+<hr>
+<h3>三、访问你的博客</h3>
+<ol>
+<li>通过终端显示的公网 URL（如 <code>https://xxxx.ngrok.io</code> 或 <code>https://xxx.loca.lt</code>）在浏览器中访问</li>
+<li>确保能看到你的 HTML 博客内容</li>
+</ol>
+<hr>
+<h3>四、高级选项（自建 FRP 服务）</h3>
+<p><em>适合有 VPS 服务器的用户</em></p>
+<ol>
+<li><strong>在 VPS 安装 FRP 服务端</strong><pre><code class="hljs language-bash">wget https://github.com/fatedier/frp/releases/download/v0.51.3/frp_0.51.3_linux_amd64.tar.gz
+tar -zxvf frp_*.tar.gz
+<span class="hljs-built_in">cd</span> frp_*/ &amp;&amp; nano frps.ini</code></pre>配置文件内容：<pre><code class="hljs language-ini"><span class="hljs-section">[common]</span>
+<span class="hljs-attr">bind_port</span> = <span class="hljs-number">7000</span></code></pre></li>
+<li><strong>启动 FRP 服务端</strong><pre><code class="hljs language-bash">./frps -c frps.ini</code></pre></li>
+<li><strong>在 Mac 配置 FRP 客户端</strong><ul>
+<li>下载对应 Mac 版本的 FRP</li>
+<li>编辑 <code>frpc.ini</code>：<pre><code class="hljs language-ini"><span class="hljs-section">[common]</span>
+<span class="hljs-attr">server_addr</span> = 你的VPS_IP
+<span class="hljs-attr">server_port</span> = <span class="hljs-number">7000</span>
+
+<span class="hljs-section">[web]</span>
+<span class="hljs-attr">type</span> = tcp
+<span class="hljs-attr">local_port</span> = <span class="hljs-number">8000</span>
+<span class="hljs-attr">remote_port</span> = <span class="hljs-number">80</span></code></pre></li>
+</ul>
+</li>
+<li><strong>启动客户端</strong><pre><code class="hljs language-bash">./frpc -c frpc.ini</code></pre></li>
+<li>通过 <code>http://VPS_IP:80</code> 访问</li>
+</ol>
+<hr>
+<h3>注意事项</h3>
+<ol>
+<li><strong>文件命名</strong>：建议将 HTML 文件命名为 <code>index.html</code> 以便直接访问</li>
+<li><strong>防火墙</strong>：确保 Mac 防火墙允许入站连接（系统偏好设置 → 安全与隐私 → 防火墙）</li>
+<li><strong>稳定性</strong>：免费工具（如 ngrok）可能限速或限制会话时长，长期使用建议付费方案</li>
+<li><strong>安全性</strong>：仅暴露必要端口，测试后及时关闭服务</li>
+</ol>
+<p>完成以上步骤后，你的本地 HTML 博客即可通过公网访问！</p>
+</div>
+    </article>
+    <footer>
+      <span>© 2025-2025 Holdon</span>
+      <a href="https://linux.do/u/panan/summary">订阅</a>
+    </footer>
+    
+    <!-- 百度统计 -->
+    <script>
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "https://hm.baidu.com/hm.js?dd3de863d99a084d9ebd540d0bb7724b";
+      hm.async = true;
+      var s = document.getElementsByTagName("script")[0]; 
+      s.parentNode.insertBefore(hm, s);
+    })();
+    </script>
+  
+  </body>
+</html>
