@@ -4,7 +4,7 @@
         <title>Holdon</title>
         <link>www.52798.xyz/</link>
         <description>动起来就好，想做就去做吧。涵有闲博客，记录生活点滴，分享生活感悟。</description>
-        <lastBuildDate>Thu, 20 Mar 2025 23:42:03 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 20 Mar 2025 23:45:33 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>zh-CN</language>
@@ -28,7 +28,7 @@
             <link>www.52798.xyz//post/neiwangyanshi-2025</link>
             <guid>www.52798.xyz//post/neiwangyanshi-2025</guid>
             <pubDate>Mon, 10 Mar 2025 08:00:00 GMT</pubDate>
-            <description><![CDATA[以下是在 Mac 上将本地 HTML 博客通过内网穿透实现公网访问的详细步骤： --- 1. 打开终端，进入 HTML 文件所在目录： 2. 启动 Python HTTP 服务器（默认端口 8000）：...]]></description>
+            <description><![CDATA[这里是优化后的 Markdown 版本，格式更加清晰、专业，并增强了可读性： --- 1. 打开终端，进入 HTML 文件所在目录： 2. 启动 Python HTTP 服务器（默认端口 ）： *若端口被占用，可更换端口号，例如 ：*...]]></description>
         </item>
         <item>
             <title><![CDATA[什么是内网穿透]]></title>

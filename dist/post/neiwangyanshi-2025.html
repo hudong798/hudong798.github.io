@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta content="blog, Holdon, Hu, 碎片生活, note, 个人博客, 生活记录" name="keywords" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="以下是在 Mac 上将本地 HTML 博客通过内网穿透实现公网访问的详细步骤： --- 1. 打开终端，进入 HTML 文件所在目录： 2. 启动 Python HTTP 服务器（默认端口 8000）：..." />
+    <meta name="description" content="这里是优化后的 Markdown 版本，格式更加清晰、专业，并增强了可读性： --- 1. 打开终端，进入 HTML 文件所在目录： 2. 启动 Python HTTP 服务器（默认端口 ）： *若端口被占用，可更换端口号，例如 ：*..." />
     <link rel="stylesheet" href="https://cdn.bootcdn.net/ajax/libs/highlight.js/11.9.0/styles/github.min.css">
     <link rel="stylesheet" href="/static/style.css" />
     <title>内网穿透演示</title>
@@ -35,66 +35,63 @@
           <span>2025-03-10</span>
         </div>
       </header>
-      <div class="post-content"><p>以下是在 Mac 上将本地 HTML 博客通过内网穿透实现公网访问的详细步骤：</p>
+      <div class="post-content"><p>这里是优化后的 Markdown 版本，格式更加清晰、专业，并增强了可读性：  </p>
 <hr>
-<h3>一、启动本地 Web 服务器</h3>
-<h4>方法 1：使用 Python 内置服务器</h4>
+<h1><strong>Mac 本地 HTML 博客通过内网穿透实现公网访问</strong></h1>
+<h2><strong>1. 启动本地 Web 服务器</strong></h2>
+<h3><strong>方法 1：使用 Python 内置服务器</strong></h3>
 <ol>
-<li>打开终端，进入 HTML 文件所在目录：</li>
+<li>打开终端，进入 HTML 文件所在目录：<pre><code class="hljs language-bash"><span class="hljs-built_in">cd</span> /Users/apple/Desktop/</code></pre></li>
+<li>启动 Python HTTP 服务器（默认端口 <code>8000</code>）：<pre><code class="hljs language-bash">python3 -m http.server 8000</code></pre><em>若端口被占用，可更换端口号，例如 <code>8080</code>：</em><pre><code class="hljs language-bash">python3 -m http.server 8080</code></pre></li>
 </ol>
-<pre><code class="hljs language-bash"> <span class="hljs-built_in">cd</span> /Users/apple/Desktop/</code></pre><ol start="2">
-<li>启动 Python HTTP 服务器（默认端口 8000）：<pre><code class="hljs language-bash">python3 -m http.server 8000</code></pre><em>如果提示端口被占用，可更换端口号（如 <code>8080</code>）</em></li>
-</ol>
-<h4>方法 2：使用 PHP 内置服务器</h4>
+<h3><strong>方法 2：使用 PHP 内置服务器</strong></h3>
 <ol>
-<li>进入 HTML 例如在（/Users/apple/Desktop/）目录下面，文件所在目录：</li>
-</ol>
-<pre><code class="hljs language-bash"> <span class="hljs-built_in">cd</span> /Users/apple/Desktop/</code></pre><ol start="2">
-<li>启动 PHP 服务器（默认端口 8000）：<pre><code class="hljs language-bash">php -S localhost:8000</code></pre></li>
+<li>进入 HTML 目录：<pre><code class="hljs language-bash"><span class="hljs-built_in">cd</span> /Users/apple/Desktop/</code></pre></li>
+<li>启动 PHP 服务器（默认端口 <code>8000</code>）：<pre><code class="hljs language-bash">php -S localhost:8000</code></pre></li>
 </ol>
 <hr>
-<h3>二、选择内网穿透工具（任选其一）</h3>
-<h4>方案 1：使用 ngrok（推荐）</h4>
+<h2><strong>2. 选择内网穿透工具</strong></h2>
+<h3><strong>方案 1：使用 Ngrok（推荐）</strong></h3>
 <ol>
-<li><strong>安装 ngrok</strong><pre><code class="hljs language-bash">brew install ngrok/ngrok/ngrok</code></pre></li>
+<li><strong>安装 Ngrok</strong><pre><code class="hljs language-bash">brew install ngrok/ngrok/ngrok</code></pre></li>
 <li><strong>注册并获取 Token</strong><ul>
-<li>访问 <a target="_blank" rel="noopener noreferrer" href="https://ngrok.com/">ngrok官网</a> 注册账号</li>
-<li>在 Dashboard 获取你的 <a target="_blank" rel="noopener noreferrer" href="https://dashboard.ngrok.com/get-started/your-authtoken">Authtoken</a></li>
+<li>访问 <a target="_blank" rel="noopener noreferrer" href="https://ngrok.com/">Ngrok 官网</a> 注册账号</li>
+<li>在 <a target="_blank" rel="noopener noreferrer" href="https://dashboard.ngrok.com/get-started/your-authtoken">Dashboard</a> 复制 <strong>Authtoken</strong></li>
 </ul>
 </li>
 <li><strong>配置 Token</strong><pre><code class="hljs language-bash">ngrok config add-authtoken &lt;你的TOKEN&gt;</code></pre></li>
-<li><strong>启动穿透服务</strong><pre><code class="hljs language-bash">ngrok http 8000</code></pre><ul>
-<li>终端会显示公网地址（如 <code>https://xxxx.ngrok.io</code>）</li>
-</ul>
-</li>
+<li><strong>启动内网穿透</strong><pre><code class="hljs language-bash">ngrok http 8000</code></pre><em>终端将返回公网访问地址，如：</em>  <pre><code class="hljs language-bash">Forwarding  https://xxxx.ngrok.io -&gt; http://localhost:8000</code></pre></li>
 </ol>
-<h4>方案 2：使用 Localtunnel（无需注册）</h4>
+<hr>
+<h3><strong>方案 2：使用 Localtunnel（无需注册）</strong></h3>
 <ol>
 <li><strong>安装 Node.js 和 npm</strong><pre><code class="hljs language-bash">brew install node</code></pre></li>
 <li><strong>安装 Localtunnel</strong><pre><code class="hljs language-bash">npm install -g localtunnel</code></pre></li>
-<li><strong>启动服务</strong><pre><code class="hljs language-bash">lt --port 8000</code></pre><ul>
-<li>终端会返回类似 <code>https://happy-lion-123.loca.lt</code> 的公网地址</li>
+<li><strong>启动穿透</strong><pre><code class="hljs language-bash">lt --port 8000</code></pre><em>终端返回公网访问地址，如：</em>  <pre><code class="hljs language-csharp">Your URL <span class="hljs-keyword">is</span>: https:<span class="hljs-comment">//happy-lion-123.loca.lt</span></code></pre></li>
+</ol>
+<hr>
+<h2><strong>3. 访问博客</strong></h2>
+<ol>
+<li><strong>浏览器访问</strong> 终端显示的公网 URL，例如：<ul>
+<li><code>https://xxxx.ngrok.io</code></li>
+<li><code>https://xxx.loca.lt</code></li>
 </ul>
 </li>
+<li><strong>确保 HTML 页面正确加载</strong>，并检查 CSS、JavaScript 等资源是否可用。</li>
 </ol>
 <hr>
-<h3>三、访问你的博客</h3>
-<ol>
-<li>通过终端显示的公网 URL（如 <code>https://xxxx.ngrok.io</code> 或 <code>https://xxx.loca.lt</code>）在浏览器中访问</li>
-<li>确保能看到你的 HTML 博客内容</li>
-</ol>
-<hr>
-<h3>四、高级选项（自建 FRP 服务）</h3>
-<p><em>适合有 VPS 服务器的用户</em></p>
-<ol>
-<li><strong>在 VPS 安装 FRP 服务端</strong><pre><code class="hljs language-bash">wget https://github.com/fatedier/frp/releases/download/v0.51.3/frp_0.51.3_linux_amd64.tar.gz
+<h2><strong>4. 高级方案（FRP 内网穿透）</strong></h2>
+<p><em>适用于拥有 VPS 服务器的用户</em></p>
+<h3><strong>4.1 在 VPS 安装 FRP</strong></h3>
+<pre><code class="hljs language-bash">wget https://github.com/fatedier/frp/releases/download/v0.51.3/frp_0.51.3_linux_amd64.tar.gz
 tar -zxvf frp_*.tar.gz
-<span class="hljs-built_in">cd</span> frp_*/ &amp;&amp; nano frps.ini</code></pre>配置文件内容：<pre><code class="hljs language-ini"><span class="hljs-section">[common]</span>
-<span class="hljs-attr">bind_port</span> = <span class="hljs-number">7000</span></code></pre></li>
-<li><strong>启动 FRP 服务端</strong><pre><code class="hljs language-bash">./frps -c frps.ini</code></pre></li>
-<li><strong>在 Mac 配置 FRP 客户端</strong><ul>
-<li>下载对应 Mac 版本的 FRP</li>
-<li>编辑 <code>frpc.ini</code>：<pre><code class="hljs language-ini"><span class="hljs-section">[common]</span>
+<span class="hljs-built_in">cd</span> frp_*/ &amp;&amp; nano frps.ini</code></pre><p><strong><code>frps.ini</code> 配置：</strong></p>
+<pre><code class="hljs language-ini"><span class="hljs-section">[common]</span>
+<span class="hljs-attr">bind_port</span> = <span class="hljs-number">7000</span></code></pre><h3><strong>4.2 启动 FRP 服务器</strong></h3>
+<pre><code class="hljs language-bash">./frps -c frps.ini</code></pre><h3><strong>4.3 在 Mac 配置 FRP 客户端</strong></h3>
+<ol>
+<li>下载适用于 <strong>Mac</strong> 的 FRP  </li>
+<li><strong>编辑 <code>frpc.ini</code></strong>：<pre><code class="hljs language-ini"><span class="hljs-section">[common]</span>
 <span class="hljs-attr">server_addr</span> = 你的VPS_IP
 <span class="hljs-attr">server_port</span> = <span class="hljs-number">7000</span>
 
@@ -102,30 +99,32 @@ tar -zxvf frp_*.tar.gz
 <span class="hljs-attr">type</span> = tcp
 <span class="hljs-attr">local_port</span> = <span class="hljs-number">8000</span>
 <span class="hljs-attr">remote_port</span> = <span class="hljs-number">80</span></code></pre></li>
+<li><strong>启动 FRP 客户端</strong><pre><code class="hljs language-bash">./frpc -c frpc.ini</code></pre></li>
+<li><strong>公网访问地址</strong><ul>
+<li><code>http://VPS_IP:80</code></li>
 </ul>
 </li>
-<li><strong>启动客户端</strong><pre><code class="hljs language-bash">./frpc -c frpc.ini</code></pre></li>
-<li>通过 <code>http://VPS_IP:80</code> 访问</li>
 </ol>
-<blockquote>
-<p> 使用 cf 创建隧道，连接到memo</p>
-</blockquote>
-<p>```</p>
-<p>(base) apple@AppledeMacBook-Air ~ % cloudflared tunnel login</p>
-<p>/Users/apple/.cloudflared/cert.pem</p>
-<h4>(base) apple@AppledeMacBook-Air ~ % cloudflared tunnel create memo-tunnel</h4>
-<p>Tunnel credentials written to /Users/apple/.cloudflared/334431e9-f6b0-4aa9-a50c-87f504ef103f.json. cloudflared chose this file based on where your origin certificate was found. Keep this file secret. To revoke these credentials, delete the tunnel.<br>Created tunnel memo-tunnel with id 334431e9-f6b0-4aa9-a50c-87f504ef103f</p>
-<h4>(base) apple@AppledeMacBook-Air ~ % nano ~/.cloudflared/config.yml</h4>
-<h4>(base) apple@AppledeMacBook-Air ~ % cloudflared tunnel run memo-tunnel</h4>
-<h2>```</h2>
-<h3>注意事项</h3>
+<hr>
+<h2><strong>5. 使用 Cloudflare Tunnel 进行穿透</strong></h2>
 <ol>
-<li><strong>文件命名</strong>：建议将 HTML 文件命名为 <code>index.html</code> 以便直接访问</li>
-<li><strong>防火墙</strong>：确保 Mac 防火墙允许入站连接（系统偏好设置 → 安全与隐私 → 防火墙）</li>
-<li><strong>稳定性</strong>：免费工具（如 ngrok）可能限速或限制会话时长，长期使用建议付费方案</li>
-<li><strong>安全性</strong>：仅暴露必要端口，测试后及时关闭服务</li>
+<li><strong>安装 Cloudflare Tunnel</strong><pre><code class="hljs language-bash">brew install cloudflared</code></pre></li>
+<li><strong>登录 Cloudflare</strong><pre><code class="hljs language-bash">cloudflared tunnel login</code></pre><em>成功后，Cloudflare 会生成证书文件：</em><pre><code class="hljs language-swift"><span class="hljs-regexp">/Users/</span>apple<span class="hljs-regexp">/.cloudflared/</span>cert.pem</code></pre></li>
+<li><strong>创建隧道</strong><pre><code class="hljs language-bash">cloudflared tunnel create memo-tunnel</code></pre><em>终端返回隧道 ID，例如：</em><pre><code class="hljs language-python">Created tunnel memo-tunnel <span class="hljs-keyword">with</span> <span class="hljs-built_in">id</span> <span class="hljs-number">334431e9</span>-f6b0-4aa9-a50c-87f504ef103f</code></pre></li>
+<li><strong>配置 <code>config.yml</code></strong><pre><code class="hljs language-bash">nano ~/.cloudflared/config.yml</code></pre>配置示例：<pre><code class="hljs language-yaml"><span class="hljs-attr">tunnel:</span> <span class="hljs-string">memo-tunnel</span>
+<span class="hljs-attr">credentials-file:</span> <span class="hljs-string">/Users/apple/.cloudflared/334431e9-f6b0-4aa9-a50c-87f504ef103f.json</span>
+
+<span class="hljs-attr">ingress:</span>
+  <span class="hljs-bullet">-</span> <span class="hljs-attr">hostname:</span> <span class="hljs-string">blog.example.com</span>
+    <span class="hljs-attr">service:</span> <span class="hljs-string">http://localhost:8000</span>
+  <span class="hljs-bullet">-</span> <span class="hljs-attr">service:</span> <span class="hljs-string">http_status:404</span></code></pre></li>
+<li><strong>运行隧道</strong><pre><code class="hljs language-bash">cloudflared tunnel run memo-tunnel</code></pre></li>
 </ol>
-<p>完成以上步骤后，你的本地 HTML 博客即可通过公网访问！</p>
+<hr>
+<h2><strong>6. 注意事项</strong></h2>
+<p>✅ <strong>文件命名</strong>：建议将 HTML 文件命名为 <code>index.html</code>，以便直接访问<br>✅ <strong>防火墙设置</strong>：确保 Mac 允许入站连接（系统偏好设置 → 安全与隐私 → 防火墙）<br>✅ <strong>稳定性</strong>：免费工具（如 Ngrok）可能限速或限制会话时长，长期使用建议付费方案<br>✅ <strong>安全性</strong>：建议使用 HTTPS 或 Cloudflare 保护公网访问  </p>
+<hr>
+<p>以上步骤完成后，你的 <strong>本地 HTML 博客</strong> 即可通过公网访问 🎉！通过公网访问！</p>
 </div>
     </article>
     <footer>
