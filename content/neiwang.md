@@ -115,7 +115,9 @@ date: 2025-03-10
 >  使用 cf 创建隧道，连接到memo
 
 
-'''
+\`\`\`
+
+
 (base) apple@AppledeMacBook-Air ~ % cloudflared tunnel login
 
 /Users/apple/.cloudflared/cert.pem
@@ -130,7 +132,7 @@ Created tunnel memo-tunnel with id 334431e9-f6b0-4aa9-a50c-87f504ef103f
 
 #### (base) apple@AppledeMacBook-Air ~ % cloudflared tunnel run memo-tunnel
 
-'''
+\`\`\`
 ---
 
 ### 注意事项

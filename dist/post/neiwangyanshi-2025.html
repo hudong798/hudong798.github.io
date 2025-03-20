@@ -110,13 +110,14 @@ tar -zxvf frp_*.tar.gz
 <blockquote>
 <p> 使用 cf 创建隧道，连接到memo</p>
 </blockquote>
-<p>&#39;&#39;&#39;<br>(base) apple@AppledeMacBook-Air ~ % cloudflared tunnel login</p>
+<p>```</p>
+<p>(base) apple@AppledeMacBook-Air ~ % cloudflared tunnel login</p>
 <p>/Users/apple/.cloudflared/cert.pem</p>
 <h4>(base) apple@AppledeMacBook-Air ~ % cloudflared tunnel create memo-tunnel</h4>
 <p>Tunnel credentials written to /Users/apple/.cloudflared/334431e9-f6b0-4aa9-a50c-87f504ef103f.json. cloudflared chose this file based on where your origin certificate was found. Keep this file secret. To revoke these credentials, delete the tunnel.<br>Created tunnel memo-tunnel with id 334431e9-f6b0-4aa9-a50c-87f504ef103f</p>
 <h4>(base) apple@AppledeMacBook-Air ~ % nano ~/.cloudflared/config.yml</h4>
 <h4>(base) apple@AppledeMacBook-Air ~ % cloudflared tunnel run memo-tunnel</h4>
-<h2>&#39;&#39;&#39;</h2>
+<h2>```</h2>
 <h3>注意事项</h3>
 <ol>
 <li><strong>文件命名</strong>：建议将 HTML 文件命名为 <code>index.html</code> 以便直接访问</li>
