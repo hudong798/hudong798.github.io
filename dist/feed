@@ -4,7 +4,7 @@
         <title>Holdon</title>
         <link>www.52798.xyz/</link>
         <description>动起来就好，想做就去做吧。涵有闲博客，记录生活点滴，分享生活感悟。</description>
-        <lastBuildDate>Thu, 20 Mar 2025 23:56:14 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 21 Mar 2025 00:02:02 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>zh-CN</language>
@@ -24,35 +24,42 @@
             <description><![CDATA[--- | 资源名称 | 资源类型 | 访问地址 | |----------|---------|---------| | **实用软件合集** | 常用工具 | 🔗 点击访问 | --- 🕒...]]></description>
         </item>
         <item>
-            <title><![CDATA[🔥内网穿透演示]]></title>
+            <title><![CDATA[⭐符号集]]></title>
+            <link>www.52798.xyz//post/fhao -2025</link>
+            <guid>www.52798.xyz//post/fhao -2025</guid>
+            <pubDate>Thu, 20 Mar 2025 08:00:00 GMT</pubDate>
+            <description><![CDATA[当然！这里是更多符号分类备用，你可以随意选择使用： --- 🔥 🚀 ⭐ 🌟 ✨ 💎 🎖️ 🏆 🎯 🎇 🎆 🎊 🎉 💥 ⚡ 🚀 🎬 🎥 🎞️ 📺 🍿 🎭 🎦 🎞 📽️ 📡 🎙️ 📼 📀...]]></description>
+        </item>
+        <item>
+            <title><![CDATA[🏹内网穿透演示]]></title>
             <link>www.52798.xyz//post/neiwangyanshi-2025</link>
             <guid>www.52798.xyz//post/neiwangyanshi-2025</guid>
             <pubDate>Mon, 10 Mar 2025 08:00:00 GMT</pubDate>
             <description><![CDATA[这里是优化后的 Markdown 版本，格式更加清晰、专业，并增强了可读性： --- 1. 打开终端，进入 HTML 文件所在目录： 2. 启动 Python HTTP 服务器（默认端口 ）： *若端口被占用，可更换端口号，例如 ：*...]]></description>
         </item>
         <item>
-            <title><![CDATA[🔥什么是内网穿透]]></title>
+            <title><![CDATA[🏹什么是内网穿透]]></title>
             <link>www.52798.xyz//post/neiwang -2025</link>
             <guid>www.52798.xyz//post/neiwang -2025</guid>
             <pubDate>Sun, 09 Mar 2025 08:00:00 GMT</pubDate>
             <description><![CDATA[> 字面意思理解 * 就是内网的东西穿透到公网上 > 举个例子 * 假如我的的电脑就是一台服务器，现在我用 AI 给我制作一个 静态网站，这个静态网站可以通过文件目录（ 或 ）地址通过浏览器直接访问就可以了，但是当我用手机或者别的电脑访问就...]]></description>
         </item>
         <item>
-            <title><![CDATA[🔥文件传输工具（持续更新中…）]]></title>
+            <title><![CDATA[📤文件传输工具（持续更新中…）]]></title>
             <link>www.52798.xyz//post/webnjianchuanshu1-2025</link>
             <guid>www.52798.xyz//post/webnjianchuanshu1-2025</guid>
             <pubDate>Fri, 28 Feb 2025 08:00:00 GMT</pubDate>
             <description><![CDATA[**部分网站可能无法访问，可能是服务器崩了，也可能需要魔法 😎** --- 🔹 **取文件** 🔹 **wormhole** --- 🕒 **2025.02.28**（会不定期更新，记得收藏！⭐） ---]]></description>
         </item>
         <item>
-            <title><![CDATA[🎯云盘传输网站]]></title>
+            <title><![CDATA[🌐云盘传输网站]]></title>
             <link>www.52798.xyz//post/yunpan2-2025</link>
             <guid>www.52798.xyz//post/yunpan2-2025</guid>
             <pubDate>Fri, 28 Feb 2025 08:00:00 GMT</pubDate>
             <description><![CDATA[> **“所有的坚持，都会成为未来的礼物。”** 🔹 **mega**外国 🔹 **zeze**日本 ---]]></description>
         </item>
         <item>
-            <title><![CDATA[图床（持续更新中…）]]></title>
+            <title><![CDATA[🎆 图床（持续更新中…）]]></title>
             <link>www.52798.xyz//post/tuchaug1-2025</link>
             <guid>www.52798.xyz//post/tuchaug1-2025</guid>
             <pubDate>Fri, 28 Feb 2025 08:00:00 GMT</pubDate>
