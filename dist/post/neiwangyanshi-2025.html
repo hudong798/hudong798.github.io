@@ -107,6 +107,23 @@ tar -zxvf frp_*.tar.gz
 <li><strong>启动客户端</strong><pre><code class="hljs language-bash">./frpc -c frpc.ini</code></pre></li>
 <li>通过 <code>http://VPS_IP:80</code> 访问</li>
 </ol>
+<blockquote>
+<p> 使用 cf 创建隧道，连接到memo</p>
+</blockquote>
+<p>(base) apple@AppledeMacBook-Air ~ % cloudflared tunnel login</p>
+<p>A browser window should have opened at the following URL:</p>
+<p><a target="_blank" rel="noopener noreferrer" href="https://dash.cloudflare.com/argotunnel?aud=&callback=https%3A%2F%2Flogin.cloudflareaccess.org%2Fh5H3DoFXkncGpMtMw1VwlE0yvaUdaylAwgYAwjJkcCM%3D">https://dash.cloudflare.com/argotunnel?aud=&amp;callback=https%3A%2F%2Flogin.cloudflareaccess.org%2Fh5H3DoFXkncGpMtMw1VwlE0yvaUdaylAwgYAwjJkcCM%3D</a></p>
+<p>If the browser failed to open, please visit the URL above directly in your browser.</p>
+<p>2025-03-20T02:25:26Z INF You have successfully logged in.</p>
+<p>If you wish to copy your credentials to a server, they have been saved to:</p>
+<p>/Users/apple/.cloudflared/cert.pem</p>
+<h4>(base) apple@AppledeMacBook-Air ~ % cloudflared tunnel create memo-tunnel</h4>
+<p>Tunnel credentials written to /Users/apple/.cloudflared/334431e9-f6b0-4aa9-a50c-87f504ef103f.json. cloudflared chose this file based on where your origin certificate was found. Keep this file secret. To revoke these credentials, delete the tunnel.</p>
+<p>Created tunnel memo-tunnel with id 334431e9-f6b0-4aa9-a50c-87f504ef103f</p>
+<h4>(base) apple@AppledeMacBook-Air ~ % nano ~/.cloudflared/config.yml</h4>
+<h4>(base) apple@AppledeMacBook-Air ~ %</h4>
+<h4>(base) apple@AppledeMacBook-Air ~ % nano ~/.cloudflared/config.yml</h4>
+<h4>(base) apple@AppledeMacBook-Air ~ % cloudflared tunnel run memo-tunnel</h4>
 <hr>
 <h3>注意事项</h3>
 <ol>
