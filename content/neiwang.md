@@ -114,37 +114,23 @@ date: 2025-03-10
 
 >  使用 cf 创建隧道，连接到memo
 
+
+'''
 (base) apple@AppledeMacBook-Air ~ % cloudflared tunnel login
-
-A browser window should have opened at the following URL:
-
-https://dash.cloudflare.com/argotunnel?aud=&callback=https%3A%2F%2Flogin.cloudflareaccess.org%2Fh5H3DoFXkncGpMtMw1VwlE0yvaUdaylAwgYAwjJkcCM%3D
-  
-If the browser failed to open, please visit the URL above directly in your browser.
-
-2025-03-20T02:25:26Z INF You have successfully logged in.
-
-If you wish to copy your credentials to a server, they have been saved to:
 
 /Users/apple/.cloudflared/cert.pem
 
-  
 
 #### (base) apple@AppledeMacBook-Air ~ % cloudflared tunnel create memo-tunnel
 
 Tunnel credentials written to /Users/apple/.cloudflared/334431e9-f6b0-4aa9-a50c-87f504ef103f.json. cloudflared chose this file based on where your origin certificate was found. Keep this file secret. To revoke these credentials, delete the tunnel.
-
-  
-
 Created tunnel memo-tunnel with id 334431e9-f6b0-4aa9-a50c-87f504ef103f
 
 #### (base) apple@AppledeMacBook-Air ~ % nano ~/.cloudflared/config.yml
 
-#### (base) apple@AppledeMacBook-Air ~ % 
-
-#### (base) apple@AppledeMacBook-Air ~ % nano ~/.cloudflared/config.yml
-
 #### (base) apple@AppledeMacBook-Air ~ % cloudflared tunnel run memo-tunnel
+
+'''
 ---
 
 ### 注意事项
