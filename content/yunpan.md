@@ -11,6 +11,6 @@ date: 2098-02-05
 
 | 🔹 **资源名称** | 📂 **类型** | 🔗 **获取方式** |  
 |----------------|------------|----------------|  
-| 🌟 **实用软件合集** | 🔧 工具集合 | [📥 立即下载](https://pan.baidu.com/s/1SkwfBNZiIoth6bjkUpG9nA) |  
+|  **软件** | 工具集合 | [📥 立即下载](https://pan.baidu.com/s/1SkwfBNZiIoth6bjkUpG9nA) |  
 
 ---
