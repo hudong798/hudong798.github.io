@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta content="blog, Holdon, Hu, 碎片生活, note, 个人博客, 生活记录" name="keywords" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="以下是一个详细的 Markdown 文件内容示例，主要介绍 Markdown 语法及其用法。你可以直接复制到你的 Markdown 文件中使用。 --- Markdown 是一种轻量级的标记语言，旨在以简单易读的方式编写文档。它被广泛用于撰..." />
+    <link rel="stylesheet" href="https://cdn.bootcdn.net/ajax/libs/highlight.js/11.9.0/styles/github.min.css">
+    <link rel="stylesheet" href="/static/style.css" />
+    <title>🌿Markdown语法</title>
+  </head>
+  <body id="top">
+    <a href="#top" class="back-to-top" aria-label="返回顶部">↑</a>
+    <header class="site-header">
+      <div class="site-title">
+        <!-- <a href="/">Holdon</a> -->
+        <a href="/" style="display: flex; align-items: center;">
+            <img src="https://img.picgo.net/2025/02/06/100017943999ed007cac2a37e5.gif" alt="Image description" style="width:50px; height:auto; margin-right: 10px;">
+            Holdon
+        </a>
+      </div>
+      <nav class="site-nav">
+        <a href="/about#now">现在</a>
+        <a href="/journals">碎语</a>
+        <a href="/about">关于</a>
+      </nav>
+    </header>
+
+    <article>
+      <header class="post-header">
+        <h1>🌿Markdown语法</h1>
+        <div class="post-meta">
+          <span>Holdon</span>
+          <span class="separator">·</span>
+          <span>2025-03-21</span>
+        </div>
+      </header>
+      <div class="post-content"><p>以下是一个详细的 Markdown 文件内容示例，主要介绍 Markdown 语法及其用法。你可以直接复制到你的 Markdown 文件中使用。</p>
+<hr>
+<h1>Markdown 语法介绍</h1>
+<p>Markdown 是一种轻量级的标记语言，旨在以简单易读的方式编写文档。它被广泛用于撰写 README 文件、博客文章、文档以及各种在线内容。以下是 Markdown 的常用语法和功能的详细介绍。</p>
+<hr>
+<h2>1. 基本格式</h2>
+<h3>标题</h3>
+<p>Markdown 使用 <code>#</code> 来表示标题，<code>#</code> 的数量决定了标题的级别（1-6 级）。</p>
+<pre><code class="hljs language-markdown"><span class="hljs-section"># 一级标题</span>
+<span class="hljs-section">## 二级标题</span>
+<span class="hljs-section">### 三级标题</span>
+<span class="hljs-section">#### 四级标题</span>
+<span class="hljs-section">##### 五级标题</span>
+<span class="hljs-section">###### 六级标题</span></code></pre><p><strong>效果：</strong></p>
+<h1>一级标题</h1>
+<h2>二级标题</h2>
+<h3>三级标题</h3>
+<h4>四级标题</h4>
+<h5>五级标题</h5>
+<h6>六级标题</h6>
+<hr>
+<h3>段落与换行</h3>
+<p>在 Markdown 中，段落之间只需空一行即可分隔。</p>
+<pre><code class="hljs language-markdown">这是第一段。
+
+这是第二段。</code></pre><p><strong>效果：</strong></p>
+<p>这是第一段。</p>
+<p>这是第二段。</p>
+<blockquote>
+<p>注意：如果需要强制换行，请在行尾添加两个空格。</p>
+</blockquote>
+<hr>
+<h3>引用</h3>
+<p>使用 <code>&gt;</code> 表示引用内容。</p>
+<pre><code class="hljs language-markdown"><span class="hljs-quote">&gt; 这是一段引用文字。</span>
+&gt;&gt; 这是嵌套引用。</code></pre><p><strong>效果：</strong></p>
+<blockquote>
+<p>这是一段引用文字。</p>
+<blockquote>
+<p>这是嵌套引用。</p>
+</blockquote>
+</blockquote>
+<hr>
+<h2>2. 文字样式</h2>
+<h3>加粗</h3>
+<p>使用双星号 <code>**</code> 或双下划线 <code>__</code> 包裹文字。</p>
+<pre><code class="hljs language-markdown"><span class="hljs-strong">**加粗文字**</span>
+<span class="hljs-strong">__加粗文字__</span></code></pre><p><strong>效果：</strong></p>
+<p><strong>加粗文字</strong></p>
+<hr>
+<h3>斜体</h3>
+<p>使用单星号 <code>*</code> 或单下划线 <code>_</code> 包裹文字。</p>
+<pre><code class="hljs language-markdown"><span class="hljs-emphasis">*斜体文字*</span>
+<span class="hljs-emphasis">_斜体文字_</span></code></pre><p><strong>效果：</strong></p>
+<p><em>斜体文字</em></p>
+<hr>
+<h3>删除线</h3>
+<p>使用双波浪号 <code>~~</code> 包裹文字。</p>
+<pre><code class="hljs language-markdown">~~删除线文字~~</code></pre><p><strong>效果：</strong></p>
+<p><del>删除线文字</del></p>
+<hr>
+<h3>组合样式</h3>
+<p>可以组合使用加粗、斜体和删除线。</p>
+<pre><code class="hljs language-markdown"><span class="hljs-strong">**<span class="hljs-emphasis">*加粗并斜体*</span>**</span>
+<span class="hljs-strong">**加粗和 ~~删除线~~**</span></code></pre><p><strong>效果：</strong></p>
+<p><em><strong>加粗并斜体</strong></em></p>
+<p><strong>加粗和 <del>删除线</del></strong></p>
+<hr>
+<h2>3. 列表</h2>
+<h3>无序列表</h3>
+<p>使用 <code>-</code>、<code>*</code> 或 <code>+</code> 创建无序列表。</p>
+<pre><code class="hljs language-markdown"><span class="hljs-bullet">-</span> 项目一
+<span class="hljs-bullet">-</span> 项目二
+<span class="hljs-bullet">  -</span> 子项目
+<span class="hljs-bullet">-</span> 项目三</code></pre><p><strong>效果：</strong></p>
+<ul>
+<li>项目一</li>
+<li>项目二<ul>
+<li>子项目</li>
+</ul>
+</li>
+<li>项目三</li>
+</ul>
+<hr>
+<h3>有序列表</h3>
+<p>使用数字加点 <code>1.</code> 创建有序列表。</p>
+<pre><code class="hljs language-markdown"><span class="hljs-bullet">1.</span> 第一步
+<span class="hljs-bullet">2.</span> 第二步
+<span class="hljs-bullet">   1.</span> 子步骤一
+<span class="hljs-bullet">   2.</span> 子步骤二
+<span class="hljs-bullet">3.</span> 第三步</code></pre><p><strong>效果：</strong></p>
+<ol>
+<li>第一步</li>
+<li>第二步<ol>
+<li>子步骤一</li>
+<li>子步骤二</li>
+</ol>
+</li>
+<li>第三步</li>
+</ol>
+<hr>
+<h2>4. 链接与图片</h2>
+<h3>超链接</h3>
+<p>使用 <code>[文字](链接)</code> 创建超链接。</p>
+<pre><code class="hljs language-markdown">[<span class="hljs-string">访问 Google</span>](<span class="hljs-link">https://www.google.com</span>)</code></pre><p><strong>效果：</strong></p>
+<p><a target="_blank" rel="noopener noreferrer" href="https://www.google.com">访问 Google</a></p>
+<hr>
+<h3>图片</h3>
+<p>使用 <code>![替代文字](图片链接)</code> 插入图片。</p>
+<pre><code class="hljs language-markdown">![<span class="hljs-string">Markdown Logo</span>](<span class="hljs-link">https://upload.wikimedia.org/wikipedia/commons/4/48/Markdown-mark.svg</span>)</code></pre><p><strong>效果：</strong></p>
+<figure class="image-container">
+           <img loading="lazy" decoding="async" src="https://upload.wikimedia.org/wikipedia/commons/4/48/Markdown-mark.svg" alt="Markdown Logo">
+           <figcaption>Markdown Logo</figcaption>
+         </figure>
+<hr>
+<h2>5. 代码</h2>
+<h3>行内代码</h3>
+<p>使用反引号 <code>`</code> 包裹行内代码。</p>
+<pre><code class="hljs language-markdown">这是一个 <span class="hljs-code">`console.log(&#x27;Hello, World!&#x27;)`</span> 示例。</code></pre><p><strong>效果：</strong></p>
+<p>这是一个 <code>console.log(&#39;Hello, World!&#39;)</code> 示例。</p>
+<hr>
+<h3>代码块</h3>
+<p>使用三个反引号 ``` 包裹代码块，并可指定语言以启用语法高亮。</p>
+<pre><code class="hljs language-markdown"><span class="hljs-code">```python
+def greet(name):
+    print(f&quot;Hello, {name}!&quot;)
+greet(&quot;World&quot;)</span></code></pre><pre><code class="hljs language-python">
+**效果：**
+
+```python
+<span class="hljs-keyword">def</span> <span class="hljs-title function_">greet</span>(<span class="hljs-params">name</span>):
+    <span class="hljs-built_in">print</span>(<span class="hljs-string">f&quot;Hello, <span class="hljs-subst">{name}</span>!&quot;</span>)
+greet(<span class="hljs-string">&quot;World&quot;</span>)</code></pre><hr>
+<h2>6. 表格</h2>
+<p>使用 <code>|</code> 和 <code>-</code> 创建表格。</p>
+<pre><code class="hljs language-markdown">| 名称       | 年龄 | 职业       |
+|------------|------|------------|
+| 张三       | 25   | 工程师     |
+| 李四       | 30   | 设计师     |
+| 王五       | 28   | 产品经理   |</code></pre><p><strong>效果：</strong></p>
+<table>
+<thead>
+<tr>
+<th>名称</th>
+<th>年龄</th>
+<th>职业</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>张三</td>
+<td>25</td>
+<td>工程师</td>
+</tr>
+<tr>
+<td>李四</td>
+<td>30</td>
+<td>设计师</td>
+</tr>
+<tr>
+<td>王五</td>
+<td>28</td>
+<td>产品经理</td>
+</tr>
+</tbody></table>
+<hr>
+<h2>7. 分割线</h2>
+<p>使用三个或更多个 <code>-</code>、<code>*</code> 或 <code>_</code> 创建分割线。</p>
+<pre><code class="hljs language-markdown">---
+<span class="hljs-strong">***
+__<span class="hljs-emphasis">_</span></span></code></pre><p><strong>效果：</strong></p>
+<hr>
+<hr>
+<hr>
+<hr>
+<h2>8. 特殊字符</h2>
+<p>Markdown 支持 HTML 标签，可以直接插入 HTML 代码。</p>
+<pre><code class="hljs language-markdown"><span class="language-xml"><span class="hljs-tag">&lt;<span class="hljs-name">kbd</span>&gt;</span></span>Ctrl + S<span class="language-xml"><span class="hljs-tag">&lt;/<span class="hljs-name">kbd</span>&gt;</span></span> 用于保存文件。</code></pre><p><strong>效果：</strong></p>
+<p><kbd>Ctrl + S</kbd> 用于保存文件。</p>
+<hr>
+<h2>9. 扩展功能</h2>
+<h3>任务列表</h3>
+<p>使用 <code>- [ ]</code> 表示未完成的任务，<code>- [x]</code> 表示已完成的任务。</p>
+<pre><code class="hljs language-markdown"><span class="hljs-bullet">-</span> [x] 完成任务一
+<span class="hljs-bullet">-</span> [ ] 完成任务二
+<span class="hljs-bullet">-</span> [ ] 完成任务三</code></pre><p><strong>效果：</strong></p>
+<ul>
+<li><input checked="" disabled="" type="checkbox"> 完成任务一</li>
+<li><input disabled="" type="checkbox"> 完成任务二</li>
+<li><input disabled="" type="checkbox"> 完成任务三</li>
+</ul>
+<hr>
+<h3>脚注</h3>
+<p>使用 <code>[^标识符]</code> 创建脚注。</p>
+<pre><code class="hljs language-markdown">这是一个脚注示例[^1]。
+
+[<span class="hljs-symbol">^1</span>]: <span class="hljs-link">这是脚注的内容。</span></code></pre><p><strong>效果：</strong></p>
+<p>这是一个脚注示例<a target="_blank" rel="noopener noreferrer" href="这是脚注的内容。">^1</a>。</p>
+<hr>
+<p>以上就是 Markdown 的基本语法和一些高级功能。通过这些简单的标记，你可以轻松地创建结构清晰、美观的文档！</p>
+<hr>
+<p>希望这份 Markdown 文件对你有帮助！</p>
+</div>
+    </article>
+    <footer>
+      <span>© 2025-2025 Holdon</span>
+      <a href="https://linux.do/u/panan/summary">订阅</a>
+    </footer>
+    
+    <!-- 百度统计 -->
+    <script>
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "https://hm.baidu.com/hm.js?dd3de863d99a084d9ebd540d0bb7724b";
+      hm.async = true;
+      var s = document.getElementsByTagName("script")[0]; 
+      s.parentNode.insertBefore(hm, s);
+    })();
+    </script>
+  
+  </body>
+</html>
