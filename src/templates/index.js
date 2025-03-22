@@ -66,9 +66,9 @@ export function generateIndexHtml(posts) {
   </header>
 
   <div class="slogan">
-    Keep it simple and focus on what matters
+    Live for your own happiness, not bound by others！
     <br>
-    保持简单，专注于重要的事情
+    生而悦己，而非困于他人！
   </div>
   <div style="text-align: center;">
     <audio controls autoplay>
