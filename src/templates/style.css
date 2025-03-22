@@ -70,7 +70,8 @@ body {
 /* 标语样式 */
 .slogan {
   margin: 1.5rem 0 2rem;
-  color: var(--text-secondary);
+/*  color: var(--text-secondary);*/
+  color: #003366;
   font-size: 0.95rem;
   font-style: italic;
   line-height: 1.6;
